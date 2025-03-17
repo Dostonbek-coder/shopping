@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: #f78e58;
+    --white-alfa-40: rgba(255, 255, 255, 0.40);
+    --white-alfa-25: rgba(255, 255, 255, 0.25);
+    --backdrop-filter: blur(5px);
+    --box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-image: url('image/9.jpg');
+    background-position: center;
+    width: 100%;
+    overflow-x: hidden;
+}
